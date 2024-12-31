@@ -1,0 +1,60 @@
+.intro-container{
+    padding-top: 65px;
+    display: flex;
+    height: 100vh;
+    margin-bottom: 50px;
+    
+}
+
+
+
+/*BRIEF PERSONAL INFORMATION*/
+.intro-left-side{
+    position: relative;
+    flex: 1;
+}
+
+.brief-info{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.brief-info h1{
+    font-size: 45px;
+}
+
+.brief-info h2{
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.brief-info p{
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.brief-info button{
+    background-color: transparent;
+    width: 180px;
+    margin: 0 10px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border-color: var(--border-color);
+    cursor: pointer;
+    transition: all 0.3s;
+   
+}
+
+.brief-info button:hover{
+    background-color: var(--another-secondary-color);
+    box-shadow: 0px 0px 20px var(--secondary-color);
+}
+

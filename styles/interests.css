@@ -1,0 +1,46 @@
+.interests-section{
+    padding: 150px 200px;
+    height: auto;
+}
+
+.interests-section h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+
+.interests-card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(269px,1fr));
+    column-gap: 15px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.interest-card{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px 15px;
+    min-width: 200px;
+    height: 70px;
+    transition: all 300ms;
+}
+
+
+.interest-card img{
+    margin-right: 15px;
+    height: 50%;
+    transition: all 300ms;
+}
+
+.interest-card:hover img{
+    height: 75%;
+}
+
+.interest-card h3{
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,23 @@
+:root{
+    --primary-color:  #1e272e;
+    --secondary-color: rgb(71, 196, 196);
+    --another-secondary-color: aqua;
+    --border-color:  aliceblue;
+    --text-color: white;
+    --error-color: #d93025;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--primary-color);
+    overflow: auto;
+    
+}

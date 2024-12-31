@@ -1,0 +1,53 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    align-items: center;
+    left: 0;
+    right: 0;
+    height: 65px;
+    z-index: 1000;
+}
+
+header img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.side-header-profile{
+    margin-left: 50px;
+    width: 50%;
+
+}
+
+.side-header-profile h1 {
+    font-size: 20px;
+   
+}
+
+.side-header-profile span{
+    color: var(--another-secondary-color)
+}
+
+nav{
+    position: relative;
+    width: max-content;
+    margin-right: 50px;
+}
+
+nav a{
+    position: relative;
+    margin-right: 30px;
+    opacity: 0.6;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+.active{
+    background-color: blue;
+}
+

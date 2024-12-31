@@ -1,0 +1,122 @@
+.education-section{
+    padding: 100px 15px;
+    background-color: var(--primary-color);
+    height: auto;
+}
+
+.education-section h1{
+    padding-bottom: 140px;
+    font-size: 50px ;
+    text-align: center;
+}
+
+.timeline-items{
+    max-width: 1200px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+.timeline-items::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: var(--another-secondary-color);
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.timeline-item:last-child{
+    margin-bottom: 0px;
+}
+
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+
+.timeline-dot{
+    height: 21px;
+    width: 22px;
+    background-color: var(--another-secondary-color);
+    box-shadow: 0 0 25px var(--another-secondary-color),
+                0 0 50px var(--another-secondary-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    top:10px;
+
+}
+
+.timeline-date{
+    font-size: 20;
+    font-weight: 800;
+    color: var(--text-color);
+    margin: 6px 0 15px;
+
+}
+
+.timeline-content{
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    padding: 30px 40px;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.timeline-content:hover{
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 0 25px var(--another-secondary-color);
+
+}
+
+.timeline-content h3{
+    font-size: 18px;
+    color: var(--text-color);
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.timeline-content p{
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    animation: pop-up-scrollbar 400ms ease;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--another-secondary-color);
+
+}
+

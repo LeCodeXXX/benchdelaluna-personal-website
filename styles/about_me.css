@@ -1,0 +1,86 @@
+.about-me-container{
+    background-color: var(--primary-color);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 300px;
+}
+
+.about-me-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+   
+
+}
+.about-me-left-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.about-me-left-container img{
+    width: 85%;
+  
+}
+
+.about-me-right{
+    position: relative;
+    flex: 1;
+}
+
+.about-me-right-container{
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 570px;
+    height: auto;
+    padding: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.about-me-right-container h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about-me-right-container span{
+    color: var(--secondary-color);
+}
+
+.about-me-right-container p{
+    margin-top: 35px;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 21px;
+    text-align: left;
+}
+
+.socials{
+    margin-top: 25px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.socials img{
+    cursor: pointer;
+    width: 37px;
+    border-radius: 50%;
+    padding: 9px;
+    transition: all 0.33s;
+}
+
+
+.facebook:hover{
+    background-color: #4267B2;
+}
+
+.github:hover,
+.tiktok:hover,
+.twitter:hover{
+    background-color: #000000;
+}

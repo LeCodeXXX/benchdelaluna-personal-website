@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    height: 50px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    border-top: white solid 1px;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+}
